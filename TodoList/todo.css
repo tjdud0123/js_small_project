@@ -1,0 +1,53 @@
+#App {
+    display: flex;
+    margin: 20px;
+}
+
+#todo-input {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    margin: 40px;
+}
+
+input[type=text] {
+    border: 1px solid gray;
+    padding: 2px 5px;
+}
+
+input[type=submit] {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+button {
+    border: 1px solid lightgray;
+}
+
+#newTodo {
+    width: 200px;
+    height: 20px;
+}
+
+p {
+    display: inline;
+}
+
+.del-btn {
+    margin: 5px 10px;
+}
+
+.completed {
+    color: darkblue;
+}
+
+#todo-count {
+    margin-top: 20px;
+}
+
+#remove-all {
+    margin: 20px 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
